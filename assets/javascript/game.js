@@ -59,4 +59,4 @@ document.onkeyup = function(event) {
             lettersUsed = [];
             document.getElementById("losses").textContent = 'Losses: ' + losses;
 
-        }
+        }}
