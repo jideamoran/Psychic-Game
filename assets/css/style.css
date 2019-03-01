@@ -1,0 +1,22 @@
+
+.body { 
+    height:100%;
+    width:100%; 
+    text-align: center;
+    margin: 250px auto;
+    background-image:url(https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_1280.jpg);
+    
+    
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 22px;
+        letter-spacing: -0.4px;
+        word-spacing: 3px;
+        color: #ebebeb;
+        font-weight: 400;
+        text-decoration: none;
+        font-style: normal;
+        font-variant: small-caps;
+        text-transform: none;
+        
+  }
+
