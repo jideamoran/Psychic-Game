@@ -1,4 +1,4 @@
-document.onkeyup = function(event) {
+
 
 // These are variables to be chosen on my page. 
     
@@ -15,7 +15,7 @@ var computerChoice = alphabet[Math.floor(Math.random()*alphabet.length)];
 Userguess is being activated on the keyboard by event.key and it's showing
 the 'letters used' on the page */
 
-
+document.onkeyup = function(event) {
 
     
     var userGuess = event.key;
@@ -60,5 +60,3 @@ the 'letters used' on the page */
             document.getElementById("losses").textContent = 'Losses: ' + losses;
 
         }
-
-// console.log
